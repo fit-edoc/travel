@@ -1,0 +1,54 @@
+
+
+
+.showw{
+    height:100vh;
+
+    width:100%;
+    display: flex;
+}
+.showleft{
+    height:100vh;
+    width:50%;
+    background: url('../assets/kl.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+}
+.showright{
+    height:100%;
+    width:50%;
+    display: flex;
+    justify-content: center;
+    background: url('../assets/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+  position: relative;
+}
+.showright form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+form input{
+    height: 30px;
+    width: 300px;
+
+}
+.fare{
+    position: absolute;
+    left: 40%;
+    top: 70%;
+}
+
+.back{
+    position: absolute;
+    left: 2%;
+    top: 6%;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 3vw;
+}

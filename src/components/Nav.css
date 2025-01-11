@@ -1,0 +1,151 @@
+@font-face{
+    
+        font-family: my;
+        src: url(../assets/new.ttf);
+    
+}
+
+.nav{
+ height:100px;
+ width:100%;
+ position: relative;
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+ display: flex;
+}
+.left {
+    position: absolute;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width:50%;
+  
+}
+.left img {
+    height:80%;
+    object-fit: cover;
+    object-position: center;
+    
+}
+.right {
+    position: absolute;
+    height:100%;
+    width:50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    left: 50%;
+    
+}
+.right a{
+    text-decoration: none;
+    font-family: my;
+    color: black;
+    position: relative;
+    text-transform: capitalize;
+}
+.right a::after{
+    content: "";
+    width: 0px;
+    position: absolute;
+    top: 90%;
+    left: 0%;
+    transition: all ease 0.3s;
+
+    border-bottom: 2px solid orange;
+}
+.right a:hover::after{
+    width: 70px;
+}
+.show{
+    margin-top: 3%;
+    height:100vh;
+    width:100%;
+    background-color: rgb(255, 255, 255);
+}
+.strip h1 {
+    font-family: my;
+    position: absolute;
+    left: -60%;
+    top: 16%;
+    font-size: 8vw;
+}
+.strip h1 span {
+    font-size: 8.5vw;
+    color: #f19f05;
+}
+#span2 {
+    color: #6799df;
+}
+.strip2{
+    height:50%;
+    top: 30%;
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    width:100%;
+}
+.strip2 img {
+    height: 50%;
+    position: absolute;
+    right: -15%;
+}
+#swift{
+    position: absolute;
+    left: -70%;
+}
+#et {
+    position: absolute;
+    left: 110%;
+}
+.strip3{
+    height:50%;
+
+    width:100%;
+    top: 50%;
+    position: relative;
+
+}
+.down{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: absolute;
+   top: -10%;
+   left: 40%;
+   
+    margin-bottom: 20px;
+    
+}
+.down button{
+    height: 40px;
+    font-family: my;
+    font-weight: 700;
+    text-transform: capitalize;
+    width: 120px;
+    background-color: #f19f05;;
+    border-radius: 50px;
+    border: 1px solid black;
+    color: white;
+    font-size: 1.1vw;
+    box-shadow: rgba(89, 0, 255, 0.15) 1.95px 1.95px 2.6px;
+}
+.showcase{
+    height:50%;
+    width:100%;
+    position: relative;
+    margin-top: 38.2px;
+    
+}
+.showcase img{
+    height:100%;
+    width:100%;
+
+    position: absolute;
+    object-fit: cover;
+}
+#menu{
+    opacity: 0;
+}
